@@ -8,7 +8,7 @@ import Tariffs from './Tariffs'
 function Profile() {
   return (
     <div>
-     <NavBar />
+     
      <AboutCompany />
      <Connection />
      <Tariffs />

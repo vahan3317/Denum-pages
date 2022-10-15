@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes,Route, } from "react-router-dom";
 import Profile from './components/SecondPage/Profile';
+import  Navbar  from './components/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <BrowserRouter>
+     <Navbar />
     <Routes>
+      
       <Route path="/" element={<App />} />
       
       <Route path="/profile" element={<Profile />} />

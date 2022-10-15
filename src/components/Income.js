@@ -30,7 +30,7 @@ function Income() {
        </BaseLayout.Header>
 
        <BaseLayout.Body>
-         <p>510 000 ₽</p>
+         <p>510 000 <span className='text-[#5354E4] '> ₽</span> </p>
          
        </BaseLayout.Body>
 
@@ -47,7 +47,7 @@ function Income() {
        </BaseLayout.Header>
 
        <BaseLayout.Body>
-         <p>99,7 %</p>
+         <p>99,7 <span className='text-[#5354E4] '> %</span></p>
          
        </BaseLayout.Body>
 

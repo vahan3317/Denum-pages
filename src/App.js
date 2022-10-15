@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App bg-[#FFFFF] ">
-     <Navbar />
+     
     <Income />
     <Transactions />
     <FormLink />

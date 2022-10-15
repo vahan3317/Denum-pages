@@ -3,6 +3,7 @@ import { Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <div>
       <nav className="">
@@ -14,9 +15,9 @@ function Nav() {
             </div>
             <div>
             <div  className="hidden lg:flex lg:justify-center lg:items-center   lg:block    ">
-                <a
-                  href="#"
-                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] border-2 border-[#5354E4] text-[#5354E4] flex justify-center items-center   block  rounded-[12px] "
+                <Link
+                  to={`/`}
+                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] focus:border-2 focus:border-[#5354E4] focus:text-[#5354E4] flex justify-center items-center   block  rounded-[12px] "
                 >
                   <svg width="18" height="19"  viewBox="0 0 18 18"  xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_313_73)">
@@ -32,11 +33,11 @@ function Nav() {
                   <span className="pl-[8px]">
                     Прием платежей
                   </span>
-                </a>
+                </Link>
 
                 <a
                   href="#"
-                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] hover:border-2 border-[#5354E4] hover:text-[#5354E4] flex justify-center items-center   block  rounded-[12px]"
+                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] group   hover:border-2 border-[#5354E4] hover:text-[#5354E4]  flex justify-center items-center   block  rounded-[12px]"
                 >
                   <svg width="18" height="18"  viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5.5 15V9.375M10 15V6M14.5 15V12.75M16.75 1.5H3.25C2.65326 1.5 2.08097 1.73705 1.65901 2.15901C1.23705 2.58097 1 3.15326 1 3.75V17.25C1 17.8467 1.23705 18.419 1.65901 18.841C2.08097 19.2629 2.65326 19.5 3.25 19.5H16.75C17.3467 19.5 17.919 19.2629 18.341 18.841C18.7629 18.419 19 17.8467 19 17.25V3.75C19 3.15326 18.7629 2.58097 18.341 2.15901C17.919 1.73705 17.3467 1.5 16.75 1.5Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -66,9 +67,10 @@ function Nav() {
                   </span>
                 </a>
 
+               
                 <Link
                  to="/profile"
-                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] hover:border-2 border-[#5354E4] hover:text-[#5354E4] flex justify-center items-center   block  rounded-[12px]"
+                  className="w-[160px] h-[44px] 2xl:w-[217px] 2xl:h-[44px] focus:border-2 focus:border-[#5354E4] focus:text-[#5354E4]  flex justify-center items-center   block  rounded-[12px]"
                 >
                   <svg width="18" height="18" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_301_116)">
@@ -81,10 +83,11 @@ function Nav() {
                     </clipPath>
                     </defs>
                     </svg>
-                    <span className="pl-[8px]">
+                    <span className="pl-[8px] ">
                       Профиль
                     </span>
                 </Link>
+                
               </div>
             </div>
             <div className="flex justify-center items-center bg-[#5354E4] w-[36px] h-[36px] text-white rounded-[24px]  lg:px-0">D</div>    
