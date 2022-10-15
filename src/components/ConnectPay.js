@@ -12,7 +12,7 @@ function ConnectPay() {
   //                 <div className='pr-[20px] md:pr-0'>
   //                    <label for="default-toggle" class="inline-flex mx-[70px] mt-[12px]  md:ml-64 relative items-center cursor-pointer">
   //                     <input type="checkbox" value="" id="default-toggle" class="sr-only peer" />
-  //                     <div class="w-[55px] h-[30px]  bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+  //                     <div class="w-[55px] h-[30px]  bg-gray-200 peer-focus:outline-none  peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
   //                     </label> 
   //                  </div>
   //             </div>
@@ -21,7 +21,7 @@ function ConnectPay() {
   //                 <div className='pr-[20px]'>
   //                 <label for="checked-toggle" class="inline-flex relative mx-[70px] mt-[12px] md:ml-64   items-center cursor-pointer">
   //                   <input type="checkbox" value="" id="checked-toggle" class="sr-only peer " />
-  //                   <div class="w-[55px] h-[30px] bg-gray-200  rounded-[23px] peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+  //                   <div class="w-[55px] h-[30px] bg-gray-200  rounded-[23px] peer  peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
   //                 </label>
   //                  </div>
   //             </div>
@@ -44,7 +44,7 @@ function ConnectPay() {
   //                 <div class=" lg:pr-[60px] 2xl:-mr-[0px]   ">
   //                 <label for="teal-toggle" class="inline-flex relative    items-center  cursor-pointer">
   //                  <input type="checkbox" value="" id="teal-toggle" class="sr-only peer" />
-  //                  <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-blue-400 dark:peer-focus:ring-blue-400 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+  //                  <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700  peer-focus:ring-blue-400 dark:peer-focus:ring-blue-400 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
   //                </label>
   //                 </div>
   //                  </p>
@@ -79,7 +79,7 @@ function ConnectPay() {
                      <div>
                      <label for="default-toggle" class="inline-flex  relative items-center cursor-pointer">
                        <input type="checkbox" value="" id="default-toggle" class="sr-only peer" />
-                       <div class="w-[55px] h-[30px]  bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                       <div class="w-[55px] h-[30px]  bg-gray-200 peer-focus:outline-none    rounded-[23px] peer  peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-[#5354E4]"></div>
                        </label> 
                       </div>
 
@@ -91,7 +91,7 @@ function ConnectPay() {
                       <div className=''>
                  <label for="checked-toggle" class="inline-flex relative   items-center cursor-pointer">
                      <input type="checkbox" value="" id="checked-toggle" class="sr-only peer " />
-                     <div class="w-[55px] h-[30px] bg-gray-200  rounded-[23px] peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                     <div class="w-[55px] h-[30px] bg-gray-200 peer-focus:outline-none    rounded-[23px] peer  peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-[#5354E4]"></div>
                    </label>
                     </div>
 
@@ -104,7 +104,7 @@ function ConnectPay() {
                       <div class="   ">
                    <label for="teal-toggle" class="inline-flex relative    items-center  cursor-pointer">
                     <input type="checkbox" value="" id="teal-toggle" class="sr-only peer" />
-                    <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-blue-400 dark:peer-focus:ring-blue-400 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700  peer-focus:ring-blue-400 dark:peer-focus:ring-[#5354E4] peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-[#5354E4]"></div>
                   </label>
                   </div>
                     </div>
@@ -113,7 +113,7 @@ function ConnectPay() {
                       <div >
                    <label for="disabled-checked-toggle" class="inline-flex   relative items-center cursor-pointer">
                     <input type="checkbox" value="" id="disabled-checked-toggle" class="sr-only peer" checked disabled />
-                    <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-[#5354E4]"></div>
                   </label>
                 </div>
                     </div>
@@ -126,7 +126,7 @@ function ConnectPay() {
       <div className=' md:block '>
               <label for="green-toggle" class="inline-flex mb-4 relative items-center  cursor-pointer">
                <input type="checkbox" value="" id="green-toggle" class="sr-only peer" />
-               <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+               <div class="w-[55px] h-[30px] bg-gray-200 rounded-[23px] peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-[23px] after:h-[26px] after:w-[26px] after:transition-all dark:border-gray-600 peer-checked:bg-[#5354E4]"></div>
                
              </label>
              </div>
