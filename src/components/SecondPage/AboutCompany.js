@@ -4,7 +4,7 @@ function AboutCompany() {
   return (
     
    <>
-   <p className='font-[600] w-[320px] mt-[30px]  text-[34px] md:text-[24px] text-[#333333] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px]  mx-auto '>О компании</p>
+   <p className='text-center md:text-left font-[600] w-[320px] mt-[30px]  text-[34px] md:text-[34px] text-[#333333] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px]  mx-auto '>О компании</p>
 
     <div className='mx-auto  w-[320px] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px] form  rounded-[8px] mb-[35px] font-["Raleway"] '>
         <div className='w-[100%]  text-center md:text-left   md:flex md:justify-around mt-[30px]    '>

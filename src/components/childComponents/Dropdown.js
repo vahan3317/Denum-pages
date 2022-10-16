@@ -10,7 +10,7 @@ export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex border-none text-[#333333] search w-[270px] text-[22px] font-[500] w-[270px] lg:w-[270px] justify-between rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+        <Menu.Button className="inline-flex border-none text-[#333333]  w-[270px] text-[22px] font-[500] w-[270px] lg:w-[230px] justify-between rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
         Сентябрь
         <svg className='w-[18px] -mr-1 ml-2 mt-[9px]' viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M8.70711 8.29289L15.2929 1.70711C15.9229 1.07714 15.4767 0 14.5858 0H1.41421C0.523309 0 0.07714 1.07714 0.707105 1.7071L7.29289 8.29289C7.68342 8.68342 8.31658 8.68342 8.70711 8.29289Z" fill="#333333"/>

@@ -3,7 +3,7 @@ import React from 'react'
 function FormAccount() {
   return (
     <>
-   <p className='font-[600] w-[320px]  text-[34px] md:text-[24px] text-[#333333] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px]  mx-auto '>Формирование счета для оплаты юридическим лицом</p>
+   <p className='font-[600] w-[320px]  text-[34px] md:text-[34px] text-[#333333] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px]  mx-auto '>Формирование счета для оплаты юридическим лицом</p>
 
     <div className='mx-auto w-[320px] h-[600px] md:h-[400px]  md:w-[760px]   lg:w-[1024px] 2xl:w-[1170px] lg:h-[380px] form  rounded-[8px] mb-[35px] '>
         <div className='w-[100%]  text-center md:text-left   md:flex md:justify-around mt-[30px]   '>

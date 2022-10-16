@@ -12,7 +12,7 @@ function Profile() {
      <AboutCompany />
      <Connection />
      <Tariffs />
-     <Footer />
+     
      </div>
   )
 }

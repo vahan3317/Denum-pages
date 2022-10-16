@@ -46,7 +46,7 @@ function App() {
    })
 
   return (
-    <div className="App bg-[#FFFFF] ">
+    <div className="App bg-[#F3F3F] ">
      
     <Income />
     <Transactions />
@@ -54,7 +54,7 @@ function App() {
     <FormAccount />
     <BarChart chartData ={userData} />
     <ConnectPay />
-    <Footer />
+    
     
   
     </div>

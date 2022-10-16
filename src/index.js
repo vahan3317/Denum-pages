@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes,Route, } from "react-router-dom";
 import Profile from './components/SecondPage/Profile';
 import  Navbar  from './components/Navbar';
+import TransactionDetails from './components/TransactionDetails/TransactionDetails';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +19,9 @@ root.render(
       <Route path="/" element={<App />} />
       
       <Route path="/profile" element={<Profile />} />
+      <Route path="/TransactionDetails" element={<TransactionDetails />} />
     </Routes>
+    <Footer />
   </BrowserRouter>,
   </React.StrictMode>
 );

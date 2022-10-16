@@ -3,7 +3,9 @@ import React from 'react'
 function ConnectPay() {
   return (
    <>
-   <div className='w-[320px] mx-auto text-center form md:w-[760px] lg:w-[1024px] 2xl:w-[1170px] mb-[110px] '>
+   <p className='text-center md:text-left font-[600] w-[320px] mt-[30px]  text-[34px] md:text-[34px] text-[#333333] md:w-[760px] lg:w-[1024px] 2xl:w-[1170px]  mx-auto mb-[30px] '>Подключения</p>
+
+   <div className='w-[320px] mx-auto text-center form md:w-[760px] lg:w-[1024px] 2xl:w-[1170px] mb-[110px] rounded-[8px] '>
 
 <div className= 'pt-4 md:flex pt-[37px] rounded-[8px] text-[22px] text-[#333333] font-[600] '>
          <div className='mb-4'>
